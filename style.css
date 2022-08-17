@@ -1,0 +1,136 @@
+body{background-color: gray;
+    font-family: monospace;}
+
+
+#heading h1{
+  color: red;
+    text-align: center;
+    font-size: 5em;
+    font-family: monospace;
+    background: silver;
+    padding-top: 15px;
+    margin: 10px 0px 0px 0px;
+   
+}
+
+#heading h2{
+  color: red;
+    text-align: center;
+    font-size: 2em;
+    font-family: monospace;
+    background: silver;
+    margin: 0px;
+    padding-bottom: 15px;
+   
+}
+
+
+p {
+  text-align:center;
+  width: 60%;
+  margin: 20px auto;
+  font-size: 2em;
+  font-family: monospace;
+}
+
+#image {
+  background: white;
+  position: relative;
+  display: block;
+  width: 90%;
+height: auto;
+  margin: 30px auto 10px auto;
+  
+}
+
+
+
+#img-div{
+  padding-top: 20px;
+}
+
+figure{
+  background-color:silver;
+  width:100%;
+  margin: 0 auto;
+}
+
+#imgborder{
+  border:solid red;
+  width: 50%;
+  margin: auto;
+}
+
+figcaption{
+  width: 90%;
+  margin: 0 auto 15px auto;
+
+text-align: left;
+font-size:15px;
+text-decoration:underline;
+}
+
+section{
+margin-top:0px;
+background-color:silver;
+position: relative;
+line-height: 1.5;
+}
+
+
+#headline{
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+ul{
+  font-size: 20px;
+  width: 800px;
+  display:inline-block;
+  list-style-position: inside;
+  text-align: left;
+  padding-inline-start: 0px;
+}
+
+li:not(:first-child){
+  margin-top: 20px;
+}
+
+#list{
+text-align: center;
+  
+}
+
+
+footer{
+  margin-top: 20px;
+  padding:5px;
+  text-align:center;
+  background-color:silver;
+  font-size: 15px;
+}
+
+#headline{
+font-size: 30px;
+text-align: center;
+padding-top:30px;
+margin: 0;
+}
+
+
+
+q{
+  margin-top: 20px;
+  padding: 20px 0px 20px 0px;
+  display: block;
+  text-align:center;
+  background-color:silver;
+  font-style: italic;
+  font-size: 20px;
+}
+
+span{
+  margin-left: 10px;
+}
